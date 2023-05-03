@@ -1,0 +1,267 @@
+.blog-flex {
+  max-width: 1140px;
+  margin: 120px auto;
+  margin-bottom: 260px;
+  display: flex;
+  column-gap: 28px;
+  align-items: start;
+}
+
+.blog-flex a:hover {
+  color: rgb(255, 32, 32);
+}
+
+/* event styles */
+
+.events-flex {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-items: center;
+}
+
+.event-box {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.045);
+  overflow: hidden;
+}
+
+.event-img-box {
+  position: relative;
+}
+
+.event-img {
+  width: 100%;
+}
+
+.event-date-box {
+  position: absolute;
+  color: white;
+  background-color: rgb(255, 32, 32);
+  left: 4.5%;
+  bottom: -5.5%;
+  transform: translate(4.5%, -5.5%);
+  padding: 2.5% 3.8%;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.event-day {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.event-date-box:hover {
+  color: rgb(255, 32, 32);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+}
+
+.event-month {
+  font-size: 18px;
+}
+
+.event-info-box {
+  padding: 35px;
+  padding-top: 55px;
+}
+
+.event-name {
+  font-weight: 600;
+  font-size: 24px;
+  color: #0b1c39;
+}
+
+.event-desc {
+  color: #777;
+  margin-top: 20px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.event-theme-box {
+  color: #4d4d4d;
+  word-spacing: 8px;
+}
+
+.event-theme {
+  color: #999999;
+  word-spacing: 1px;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.event-theme i {
+  margin-right: 5px;
+}
+
+.event-theme .bi-person-fill {
+  vertical-align: middle;
+  font-size: 19px;
+}
+
+.event-nav-flex {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.event-nav {
+  flex: 1;
+  border: 1px solid #f0e9ff;
+  padding: 13px 18px;
+  font-size: 15px;
+  color: #8a8a8a;
+}
+
+.event-nav:hover {
+  background-color: transparent;
+}
+
+.nav-icon {
+  padding: 13px 14px;
+}
+
+.nav-selected {
+  background-color: #fbf9ff;
+}
+
+/* sidebar styles */
+
+.blog-aside {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+}
+
+.side-box {
+  background-color: #fbf9ff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+.side-search-flex {
+  display: flex;
+}
+.side-search-flex input {
+  width: 0;
+  flex: 1;
+}
+
+.side-search-flex input,
+.side-email {
+  padding: 16px 20px;
+  border: 1px solid #f0e9ff;
+}
+
+.side-search-flex input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.side-search-flex input::placeholder,
+.side-email::placeholder {
+  color: #999999;
+}
+
+.side-search-flex button {
+  color: white;
+  border: 1px solid rgb(255, 32, 32);
+  background-color: rgb(255, 32, 32);
+  font-size: 16px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.search-btn,
+.subscribe-btn {
+  display: block;
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: rgb(255, 32, 32);
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  font-family: "Josefin Sans", sans-serif;
+  transition: 0.4s ease-out;
+  cursor: pointer;
+}
+
+.search-btn:hover,
+.subscribe-btn:hover {
+  background-color: transparent;
+  color: rgb(255, 32, 32);
+  border-color: rgb(255, 32, 32);
+}
+
+.side-title {
+  font-size: 20px;
+  color: #0b1c39;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f0e9ff;
+  margin-bottom: 22px;
+  text-transform: capitalize;
+}
+
+.category-lst li {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0e9ff;
+  margin-bottom: 22px;
+}
+
+.category-lst li a {
+  color: #777;
+}
+
+.recent-flex {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  line-height: 26px;
+}
+
+.recent-info a {
+  color: #0b1c39;
+}
+
+.recent-info div {
+  font-size: 14px;
+  color: #777;
+}
+
+.tags-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cloud-tag {
+  color: #777;
+  font-size: 13px;
+  border: 1px solid #f0e9ff;
+  background-color: white;
+  padding: 7px 20px;
+  transition: 0.15s ease-out;
+}
+
+.cloud-tag:hover {
+  color: white !important;
+  background-color: rgb(255, 32, 32);
+  border-color: transparent;
+}
+
+.feeds-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11.9px;
+}

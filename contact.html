@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/subtop.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <body id="top">
+    <!-- header -->
+    <header class="js-header header">
+      <img class="site-logo" src="logo/logo.webp" alt="site-logo" />
+      <nav class="menu-nav">
+        <ul type="none">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="#">Latest</a>
+            <div class="hot-div">HOT</div>
+            <div class="submenu">
+              <ul>
+                <li><a href="shop.html">Product list</a></li>
+                <li>Product Details</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="blog.html">Blog</a>
+            <div class="submenu">
+              <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li>Blog Details</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">Pages</a>
+            <div class="submenu submenu-third">
+              <ul>
+                <li><a href="login.html">Log</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li>Cart</li>
+                <li>Confirmation</li>
+                <li>Product Checkout</li>
+              </ul>
+            </div>
+          </li>
+          <li class="current-page"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="right-section">
+        <a href="#"><i class="bi bi-search"></i></a>
+        <a href="login.html"
+          ><i class="bi bi-person" style="font-size: 21px"></i
+        ></a>
+        <a class="shop-ref" href="#"><i class="bi bi-cart"></i></a>
+      </div>
+    </header>
+
+    <!-- scroll-btn -->
+    <div class="js-scroller scroll-container" hidden>
+      <a class="to-top" href="#top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- main -->
+    <main>
+      <!-- sub-top-login -->
+      <section class="sub-top">
+        <div class="sub-top-cont">
+          <h1 class="sub-top-title">Contact</h1>
+        </div>
+      </section>
+
+      <!-- contacts -->
+      <section class="contact-main">
+        <!-- google-map -->
+        <iframe
+          class="google-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52887.34434865634!2d-118.123452881346!3d34.05774559873731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2d071ead0ae9f%3A0xec7b5ef82544d465!2z0KDQvtC30LzQuNC0LCDQmtCw0LvQuNGE0L7RgNC90LjRjyA5MTc3MCwg0KHQqNCQ!5e0!3m2!1sru!2s!4v1682772282115!5m2!1sru!2s"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen
+          language="english"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <h2 class="contact-title">Get in Touch</h2>
+        <div class="contact-flex">
+          <form
+            action="#"
+            method="post"
+            name="contact-form"
+            class="contact-form"
+          >
+            <textarea
+              name="msg"
+              id="msg"
+              cols="30"
+              rows="10"
+              placeholder="Enter Message"
+            ></textarea>
+
+            <div class="name-email">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+              />
+
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+
+            <input
+              type="text"
+              name="subject"
+              class="subject-inpt"
+              placeholder="Enter Subject"
+            />
+
+            <div class="submit-div">
+              <button class="submit-btn" type="submit">Send</button>
+            </div>
+          </form>
+
+          <div class="contact-info">
+            <div class="info-box">
+              <i class="bi bi-house-door"></i>
+              <div>
+                <h3>Buttonwood, California.</h3>
+                <p>Rosemead, CA 91770</p>
+              </div>
+            </div>
+
+            <div class="info-box">
+              <i class="bi bi-tablet"></i>
+              <div>
+                <h3>+1 253 565 2365</h3>
+                <p>Mon to Fri 9am to 6pm</p>
+              </div>
+            </div>
+
+            <div class="info-box">
+              <i class="bi bi-envelope"></i>
+              <div>
+                <h3>support@timezone.com</h3>
+                <p>Send us your query anytime!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-flex">
+        <div class="footer-zone">
+          <img src="logo/logo.webp" alt="" />
+          <p>
+            Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed
+            do eiusmod tem.
+          </p>
+        </div>
+
+        <div class="other-refs">
+          <h3 class="other-refs-title">Quick Links</h3>
+          <a class="other-ref" href="">About</a>
+          <a class="other-ref" href="">Offers & Discounts</a>
+          <a class="other-ref" href="">Get Coupon</a>
+          <a class="other-ref" href="">Contact Us</a>
+        </div>
+
+        <div class="other-refs">
+          <h3 class="other-refs-title">New Products</h3>
+          <a class="other-ref" href="">Woman Cloth</a>
+          <a class="other-ref" href="">Fashion Accessories</a>
+          <a class="other-ref" href="">Man Accessories</a>
+          <a class="other-ref" href="">Rubber made Toys</a>
+        </div>
+
+        <div class="other-refs other-refs-last">
+          <h3 class="other-refs-title">Support</h3>
+          <a class="other-ref" href="">Frequently Asked Questions</a>
+          <a class="other-ref" href="">Terms & Conditions</a>
+          <a class="other-ref" href="">Privacy Policy</a>
+          <a class="other-ref" href="">Report a Payment Issue</a>
+        </div>
+      </div>
+
+      <div class="footer-other">
+        Copyright &copy;2023 All rights reserved &#124; This site is made with
+        <i class="bi bi-suit-heart-fill"></i> by
+        <a href="https://t.me/lombord" target="_blank">Lombord</a>
+      </div>
+
+      <div class="footer-socials">
+        <a class="footer-social" href=""><i class="bi bi-twitter"></i></a>
+
+        <a class="footer-social" href=""><i class="bi bi-facebook"></i></a>
+
+        <a class="footer-social" href=""><i class="bi bi-instagram"></i></a>
+
+        <a class="footer-social" href=""><i class="bi bi-telegram"></i></a>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+    <script type="module" src="scripts/contact.js"></script>
+  </body>
+</html>

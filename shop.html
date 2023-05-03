@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/subtop.css" />
+    <link rel="stylesheet" href="styles/popular.css" />
+    <link rel="stylesheet" href="styles/shop-method.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <body id="top">
+    <!-- header -->
+    <header class="js-header header">
+      <img class="site-logo" src="logo/logo.webp" alt="site-logo" />
+      <nav class="menu-nav">
+        <ul type="none">
+          <li><a href="index.html">Home</a></li>
+          <li class="current-page"><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="#">Latest</a>
+            <div class="hot-div">HOT</div>
+            <div class="submenu">
+              <ul>
+                <li><a href="shop.html">Product list</a></li>
+                <li>Product Details</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="blog.html">Blog</a>
+            <div class="submenu">
+              <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li>Blog Details</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">Pages</a>
+            <div class="submenu submenu-third">
+              <ul>
+                <li><a href="login.html">Log</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li>Cart</li>
+                <li>Confirmation</li>
+                <li>Product Checkout</li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="right-section">
+        <a href="#"><i class="bi bi-search"></i></a>
+        <a href="login.html"
+          ><i class="bi bi-person" style="font-size: 21px"></i
+        ></a>
+        <a class="shop-ref" href="#"><i class="bi bi-cart"></i></a>
+      </div>
+    </header>
+
+    <!-- scroll-btn -->
+    <div class="js-scroller scroll-container" hidden>
+      <a class="to-top" href="#top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- main -->
+    <main>
+      <!-- sub-top -->
+      <section class="sub-top">
+        <div class="sub-top-cont">
+          <h1 class="sub-top-title">Watch Shop</h1>
+        </div>
+      </section>
+
+      <!-- popular items -->
+      <section class="popular-items popular-items-shop">
+        <!-- watch filter -->
+        <form class="watch-filter" action="" method="get">
+          <div class="filter-left">
+            <button>Newest Arrivals</button>
+            <button>Price High To Low</button>
+            <button class="chosen-filter">Most Popular</button>
+          </div>
+
+          <div class="filter-right">
+            <select class="watch-cnt" name="watch-cnt" id="">
+              <option selected value="40">40 per page</option>
+              <option value="50">50 per page</option>
+              <option value="60">60 per page</option>
+              <option value="70">70 per page</option>
+            </select>
+          </div>
+        </form>
+
+        <!-- watch flex -->
+        <div class="popular-flex">
+          <div class="flex-watch-box">
+            <div class="flex-img-box">
+              <img class="flex-img" src="watches/popular1.webp" alt="" />
+              <a href="" class="heart-btn"><i class="bi bi-heart"></i></a>
+              <a class="add-cart-btn" href="">Add to cart</a>
+            </div>
+            <h3 class="watch-name">Thermo Ball Etip Gloves</h3>
+            <div class="watch-price">$ 45,743</div>
+          </div>
+
+          <div class="flex-watch-box">
+            <div class="flex-img-box">
+              <img class="flex-img" src="watches/popular2.webp" alt="" />
+              <a href="" class="heart-btn"><i class="bi bi-heart"></i></a>
+              <a class="add-cart-btn" href="">Add to cart</a>
+            </div>
+            <h3 class="watch-name">Thermo Ball Etip Gloves</h3>
+            <div class="watch-price">$ 45,743</div>
+          </div>
+
+          <div class="flex-watch-box">
+            <div class="flex-img-box">
+              <img class="flex-img" src="watches/popular3.webp" alt="" />
+              <a href="" class="heart-btn"><i class="bi bi-heart"></i></a>
+              <a class="add-cart-btn" href="">Add to cart</a>
+            </div>
+            <h3 class="watch-name">Thermo Ball Etip Gloves</h3>
+            <div class="watch-price">$ 45,743</div>
+          </div>
+
+          <div class="flex-watch-box">
+            <div class="flex-img-box">
+              <img class="flex-img" src="watches/popular4.webp" alt="" />
+              <a href="" class="heart-btn"><i class="bi bi-heart"></i></a>
+              <a class="add-cart-btn" href="">Add to cart</a>
+            </div>
+            <h3 class="watch-name">Thermo Ball Etip Gloves</h3>
+            <div class="watch-price">$ 45,743</div>
+          </div>
+
+          <div class="flex-watch-box">
+            <div class="flex-img-box">
+              <img class="flex-img" src="watches/popular5.webp" alt="" />
+              <a href="" class="heart-btn"><i class="bi bi-heart"></i></a>
+              <a class="add-cart-btn" href="">Add to cart</a>
+            </div>
+            <h3 class="watch-name">Thermo Ball Etip Gloves</h3>
+            <div class="watch-price">$ 45,743</div>
+          </div>
+
+          <div class="flex-watch-box">
+            <div class="flex-img-box">
+              <img class="flex-img" src="watches/popular6.webp" alt="" />
+              <a href="" class="heart-btn"><i class="bi bi-heart"></i></a>
+              <a class="add-cart-btn" href="">Add to cart</a>
+            </div>
+            <h3 class="watch-name">Thermo Ball Etip Gloves</h3>
+            <div class="watch-price">$ 45,743</div>
+          </div>
+
+          <div class="flex-watch-box">
+            <div class="flex-img-box">
+              <img class="flex-img" src="watches/popular1.webp" alt="" />
+              <a href="" class="heart-btn"><i class="bi bi-heart"></i></a>
+              <a class="add-cart-btn" href="">Add to cart</a>
+            </div>
+            <h3 class="watch-name">Thermo Ball Etip Gloves</h3>
+            <div class="watch-price">$ 45,743</div>
+          </div>
+
+          <div class="flex-watch-box">
+            <div class="flex-img-box">
+              <img class="flex-img" src="watches/popular2.webp" alt="" />
+              <a href="" class="heart-btn"><i class="bi bi-heart"></i></a>
+              <a class="add-cart-btn" href="">Add to cart</a>
+            </div>
+            <h3 class="watch-name">Thermo Ball Etip Gloves</h3>
+            <div class="watch-price">$ 45,743</div>
+          </div>
+
+          <div class="flex-watch-box">
+            <div class="flex-img-box">
+              <img class="flex-img" src="watches/popular3.webp" alt="" />
+              <a href="" class="heart-btn"><i class="bi bi-heart"></i></a>
+              <a class="add-cart-btn" href="">Add to cart</a>
+            </div>
+            <h3 class="watch-name">Thermo Ball Etip Gloves</h3>
+            <div class="watch-price">$ 45,743</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- shop-method -->
+      <section class="shop-method">
+        <div class="method-colmn">
+          <i class="bi bi-box-seam"></i>
+          <h3 class="method-title">Free Shipping Method</h3>
+          <p class="method-descr">
+            aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.
+          </p>
+        </div>
+
+        <div class="method-colmn">
+          <i class="bi bi-shield-lock"></i>
+          <h3 class="method-title">Secure Payment System</h3>
+          <p class="method-descr">
+            aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.
+          </p>
+        </div>
+
+        <div class="method-colmn">
+          <i class="bi bi-arrow-clockwise"></i>
+          <h3 class="method-title">Return any time</h3>
+          <p class="method-descr">
+            aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-flex">
+        <div class="footer-zone">
+          <img src="logo/logo.webp" alt="" />
+          <p>
+            Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed
+            do eiusmod tem.
+          </p>
+        </div>
+
+        <div class="other-refs">
+          <h3 class="other-refs-title">Quick Links</h3>
+          <a class="other-ref" href="">About</a>
+          <a class="other-ref" href="">Offers & Discounts</a>
+          <a class="other-ref" href="">Get Coupon</a>
+          <a class="other-ref" href="">Contact Us</a>
+        </div>
+
+        <div class="other-refs">
+          <h3 class="other-refs-title">New Products</h3>
+          <a class="other-ref" href="">Woman Cloth</a>
+          <a class="other-ref" href="">Fashion Accessories</a>
+          <a class="other-ref" href="">Man Accessories</a>
+          <a class="other-ref" href="">Rubber made Toys</a>
+        </div>
+
+        <div class="other-refs other-refs-last">
+          <h3 class="other-refs-title">Support</h3>
+          <a class="other-ref" href="">Frequently Asked Questions</a>
+          <a class="other-ref" href="">Terms & Conditions</a>
+          <a class="other-ref" href="">Privacy Policy</a>
+          <a class="other-ref" href="">Report a Payment Issue</a>
+        </div>
+      </div>
+
+      <div class="footer-other">
+        Copyright &copy;2023 All rights reserved &#124; This site is made with
+        <i class="bi bi-suit-heart-fill"></i> by
+        <a href="https://t.me/lombord" target="_blank">Lombord</a>
+      </div>
+
+      <div class="footer-socials">
+        <a class="footer-social" href=""><i class="bi bi-twitter"></i></a>
+
+        <a class="footer-social" href=""><i class="bi bi-facebook"></i></a>
+
+        <a class="footer-social" href=""><i class="bi bi-instagram"></i></a>
+
+        <a class="footer-social" href=""><i class="bi bi-telegram"></i></a>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+    <script type="module" src="scripts/shop.js"></script>
+  </body>
+</html>
